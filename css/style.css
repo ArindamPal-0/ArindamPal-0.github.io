@@ -1,0 +1,378 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+/*-- Reset --*/
+html, body {
+  background-color: white;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  scroll-behavior: smooth;
+}
+
+/*=========== COLOR PALETTE =========*/
+
+.color-midnight-green{
+  color: #073B4C;
+}
+
+.color-blue-ncs{
+  color: #118AB2;
+}
+
+.color-caribbean-green{
+  color: #06D6A0;
+}
+
+.color-orange-yellow-crayota{
+  color: #FFD166;
+}
+
+.color-paradise-pink{
+  color: #EF476F;
+}
+
+/*============= NAVIGATION =============*/
+
+.navbar-brand img{
+  height: 2.8rem
+}
+
+.navbar{
+  background: linear-gradient(to right, #FFD166, #06D6A0);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+}
+
+.nav-item{
+  padding: .4rem
+}
+
+.nav-link{
+  color: black!important;
+}
+
+.nav-link.active,
+.nav-link:hover{
+  color: #118AB2!important;
+}
+
+.text-center{
+  margin: auto;
+}
+
+/*-- Hero Content --*/
+
+.site-hero {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
+  overflow: hidden;
+}
+
+.site-hero  .container .row {
+		height: 100vh;
+		min-height: 800px;
+  }
+  
+.site-hero h1 {
+	font-weight: 200;
+	margin-bottom: 20px;
+	display: block;
+}
+.site-hero h1, .lead {
+	font-weight: 200;
+	color: #073B4C;
+}
+
+.site-hero .border-color{
+  border: 2px solid #073B4C;
+}
+
+.site-hero .text-color{
+  color: #073B4C;
+}
+
+.site-hero .lead {
+	line-height: 2;
+}
+
+.site-hero .site-subheading {
+	max-width: 640px;
+	margin: 0 auto;
+	color: rgba(255,255,255,.5);
+}
+
+/*-- Carousel Content --*/
+
+.bg-dark{
+  background-color: rgba(0, 0, 0, .7)!important;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.bg-white{
+  background-color: rgba(255, 255, 255, .65)!important;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.table-container{
+  display: table;
+  height: 100%;
+  width: fit-content;
+}
+
+.table-col-cell{
+  display: table-cell;
+}
+
+/*============= ABOUT ME ===========================*/
+
+.about-me p{
+  color:#073B4C;
+}
+
+.circular--portrait{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img{
+  width: 100%;
+  height: auto;
+}
+
+
+/*============= LANGUAGES AND TECH ==================*/
+.site-section {
+  padding: 5em 0; 
+}
+
+.section-heading {
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 10; 
+}
+.section-heading h2 {
+  position: relative;
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 30px; 
+}
+
+.section-heading h2 strong {
+  font-weight: 800; 
+}
+
+.section-heading.text-center h2:before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); 
+}
+
+.match-height{
+  height: 100%;
+}
+
+.site-service-item {
+  background: #333;
+  padding: 30px;
+  height: 100%;
+}
+
+
+.site-service-item .icon {
+  display: block;
+  margin-bottom: 50px;
+  background: #edf0f2;
+  background: #bac964;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  margin: 0 auto 30px auto; 
+}
+.site-service-item .icon span {
+  font-size: 40px;
+  color: #080b0e;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%; 
+}
+.site-service-item h3 {
+  font-size: 20px;
+  font-weight: 200; 
+}
+
+.site-service-item h3, p{
+  color: white;
+}
+
+.site-link {
+  position: relative; 
+}
+.site-link i {
+  position: relative;
+  top: 2px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; 
+}
+
+.site-link:hover i {
+  color: #118AB2;
+  position: relative;
+  margin-left: 20px; 
+}
+
+/*============== WORK CAROUSEL =======================*/
+
+#carousel .container{
+    background-color: #396afc;
+    width: 100%;
+}
+
+#carousel .carousel-item .site-service-item{
+  height: 100%;
+}
+
+#carousel ol.carousel-indicators li{
+  margin: 1rem .3rem;
+  transform: translateY(1rem);
+  background-color: aqua;
+  height: 0.4rem;
+}
+
+ul.social{
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+}
+
+ul.social li{
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+
+/*============= FOOTER =============*/
+
+.site-footer{
+  background-color: #073B4C;
+}
+
+.site-footer ul.social li{
+  margin: 0 0.5rem;
+}
+
+.site-footer .email{
+  color: white;
+  font-size: 1rem;
+}
+
+.site-footer .number{
+  color: white;
+  font-size: 1rem;
+}
+
+.site-footer .icon {
+  display: block;
+  margin-bottom: 50px;
+  background: #edf0f2;
+  background: #bac964;
+  width: 100px;
+  height: 90px;
+  position: relative;
+  border-radius: 50%;
+  margin: 0 auto 30px auto; 
+}
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+
+}
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+}
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}

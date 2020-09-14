@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact Me | Arindam Pal | Portfolio</title>
+        <link rel="shortcut icon" href="img/favicon/favicon.ico">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navigation-sticky">
+            <!-- Navigation -->
+            <nav class="navbar bg-light navbar-light navbar-expand-lg sticky-top">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand" style="display: flex;">
+                        <img src="img/logo.png" alt="logo" title="Logo">
+                        <div class="text-center color-paradise-pink" style="font-size: 2rem;">&nbsp;Portfolio</div>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+                            <li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
+                            <li class="nav-item"><a href="contactme.html" class="nav-link active">Contact Me</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+            <!-- End Navigation -->
+        </div>
+
+
+
+        <!-- CONTACT ME -->
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4" style="color: #073B4C;">Contact Me</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5" style="color: #073B4C;">
+            Do you have any questions?<br>
+            Please do  contact me directly, if you like my work and want the hire me.
+        </p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <!-- the action will have action to be taken when send is pressed,
+                will fill up with correct function when it is taught.-->
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control" style="color: #073B4C;">
+                                <label for="name" class="" style="color: #073B4C;">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control" style="color: #073B4C;">
+                                <label for="email" class="" style="color: #073B4C;">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control" style="color: #073B4C;">
+                                <label for="subject" class="" style="color: #073B4C;">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" style="color: #073B4C;"></textarea>
+                                <label for="message" style="color: #073B4C;">Your message</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+            <div class="text-center text-md-left">
+            <a class="btn btn-primary " style="background-color: #FFD166; color: #073B4C;" onclick="document.getElementById('contact-form').submit();">Send</a>
+        </div>
+        <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p style="color: #073B4C;">Pune, Maharashtra, India</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p style="color: #073B4C;">+91 9479 637 001</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p style="color: #073B4C;">arindampal@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+        <!-- END CONTACT ME -->
+
+
+
+        <!-- Start Footer -->
+        <footer class="site-footer">
+            <div class="container pt-3 pb-3">
+                <div class="row justify-content-center">
+                    <img src="img/logo.png" alt="logo" id="footer-logo" class="col-3 mt-3">
+                </div>
+                <div class="row justify-content-center mt-3" style="font-size: 2rem; color: white;">
+                    <div>ARINDAM PAL</div>
+                </div>
+                <div class="row justify-content-center text-center mt-3">
+                    <ul class="social mb-3">
+                        <li><a href="https://www.linkedin.com/" target="_blank">
+                            <i class="fab fa-linkedin" style="color: #0e76a8;"></i>
+                        </a></li>
+                        <li><a href="mailto:arindampal@gmail.com" target="_blank">
+                            <i class="fas fa-envelope-square" style="color: #B23121;"></i>
+                        </a></li>
+                        <li><a href="https://github.com/" target="_blank">
+                            <i class="fab fa-github" style="color: white;"></i></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="email">arindampal@gmail.com</div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="number">+91 9479 637 001</div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+        <!--<div class="space" style="height: 80vh;"></div>-->
+
+        <!-- Script Source Files -->
+
+        <!-- jQuery -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Popper JS -->
+        <script src="js/popper.min.js"></script>
+        <!-- Font Awesome -->
+        <script src="js/all.min.js"></script>
+        
+
+        <!-- End Script Source Files -->
+    </body>
+</html>
